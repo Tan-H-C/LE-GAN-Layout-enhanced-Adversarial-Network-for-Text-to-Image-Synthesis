@@ -1,9 +1,9 @@
-# LE-GAN-Layout-enhanced-Adversarial-Network-for-Text-to-Image-Synthesis
+# LE-GAN-Layout-enhanced-Adversarial-Network-for-Text-to-Image-Synthesis- Under Review
 
 ### Introduction
-This project page is submitted to XXX:
 
-**Arxiv:** xxx
+
+**Arxiv:** 
 
 ### How to use
 
@@ -39,18 +39,13 @@ This project page is submitted to XXX:
 Waitting
 
 **Training**
-- go into `code/` folder
-- bird: `python main.py --cfg cfg/bird_LEGAN.yml --gpu 0`
-- coco: `python main.py --cfg cfg/coco_LEGAN.yml --gpu 0`
+    - bird: `python main.py --cfg cfg/bird_LEGAN.yml --gpu 0`
+    - coco: `python main.py --cfg cfg/coco_LEGAN.yml --gpu 0`
 
 **Validation**
-1. Images generation:
-    - go into `code/` folder  
     - `python main.py --cfg cfg/eval_bird.yml --gpu 0`
     - `python main.py --cfg cfg/eval_coco.yml --gpu 0`
-2. Inception score ([IS for bird](https://github.com/hanzhanggit/StackGAN-inception-model), [IS for coco](https://github.com/openai/improved-gan/tree/master/inception_score)):
-    - `cd LE-GAN/eval/IS/bird && python inception_score_bird.py --image_folder ../../../models/bird_LEGAN`
-    - `cd LE-GAN/eval/IS/coco && python inception_score_coco.py ../../../models/coco_LEGAN`
+
 
 ### License
 This code is released under the MIT License (refer to the LICENSE file for details). 
