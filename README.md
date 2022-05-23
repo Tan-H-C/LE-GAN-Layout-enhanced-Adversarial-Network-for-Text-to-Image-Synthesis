@@ -35,11 +35,6 @@
     - `mv train2014 images`
     - `cp val2014/* images`
 
-**Pretrained Models**
-LE-GAN for bird. Download and save it to models https://pan.baidu.com/s/1EhCc4Hz16b0MgIq1fV4O4Q PASSWD：XIUP
-
-LE-GAN for coco. Download and save it to models https://pan.baidu.com/s/10bOuC30AlOAX9km4gjGbbA PASSWD：XIUP
-
 **Training**
     - bird: `python main.py --cfg cfg/bird_LEGAN.yml --gpu 0`
     - coco: `python main.py --cfg cfg/coco_LEGAN.yml --gpu 0`
